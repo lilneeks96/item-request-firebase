@@ -15,18 +15,18 @@ function pushArray() {
 
 
 
-const btn = document.getElementById('hidden-submit-btn');
+const hidden_btn = document.getElementById('hidden-submit-btn');
 
-btn.addEventListener('click', function handleClick(event) {
+hidden_btn.addEventListener('click', function handleClick(event) {
   // 👇️ if you are submitting a form (prevents page reload)
   event.preventDefault();
 
-  const firstNameInput = document.getElementById('new-item-input');
+  const userInput = document.getElementById('new-item-input');
 
   // Send value to server
-  console.log(firstNameInput.value);
+  console.log(userInput.value);
   pushArray() 
 
   // 👇️ clear input field
-  firstNameInput.value = '';
+  userInput.value = '';
 });

@@ -5,6 +5,12 @@
 #hidden-submit-btn{display:none;}
 
 
+
+#new-item-input {
+    display: inline-block;
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -20,7 +26,7 @@ body {
     background-color: hsl(235, 21%, 11%);
     font-size: 18px;
     display: flex;
-    justify-content: center;
+    text-align: center;
 
 }
 
