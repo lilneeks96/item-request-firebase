@@ -2,8 +2,6 @@ window.addEventListener('DOMContentLoaded', (event) => {
     console.log('DOM fully loaded and parsed');
 });
 
-
-
 var items = [];
 
 function pushArray() {
@@ -12,8 +10,6 @@ function pushArray() {
     console.log(items);
     return false;
   }
-
-
 
 const hidden_btn = document.getElementById('hidden-submit-btn');
 
@@ -30,3 +26,5 @@ hidden_btn.addEventListener('click', function handleClick(event) {
   // 👇️ clear input field
   userInput.value = '';
 });
+
+

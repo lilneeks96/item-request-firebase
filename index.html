@@ -1,51 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css" type="text/css">
-
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Title </title>
-</head>
-<body>
-
-    <div class="background-img">
-        <img src="./assets/cascade.jpg" alt="">
+  </head>
+  <body>
+    <div class="background-image">
+      <img src="./bg-desktop-dark.jpg" alt="">
     </div>
-
-    <div class="coontainer">
-        <div class="header">
-            <div class="title">
-                
-                Item 
-                <br>
-                Request
-            </div>
-            <div class="theme">
-                <img src=".assets/cascadeLogo.jpg">
-            </div>
+    <div class="container">
+      <div class="header">
+        <div class="title"> ITEM REQUEST </div>
+        <div class="theme">
+          <img src="./icon-sun.svg">
         </div>
-        <div class="new-todo">
-            <div class="check">
-                <div class="check-mark">
-                </div>
-            </div>
-            <div class="new-todo-input">
-                <form action="" id="new-item-form" onsubmit="return pushArray()">
-                        <input type="submit" id="hidden-submit-btn"/>
-                    <input type="text" placeholder="Type Here" id="new-item-input">
-                </form>
-            </div>
+      </div>
+      <div class="new-item">
+        <div class="check">
+          <div class="check-mark"></div>
         </div>
+        <div class="new-item-request">
+          <form action="" id="new-item-form" onsubmit="return pushArray()">
+            <input type="submit" id="hidden-submit-btn" />
+            <input type="text" placeholder="Type Here" id="new-item-input">
+          </form>
+        </div>
+      </div>
     </div>
-
-        
-</body>
-
-<script language="Javascript" type="text/javascript" src="script.js"></script>  
-
+  </body>
+  <script language="Javascript" type="text/javascript" src="script.js"></script>
 </html>
