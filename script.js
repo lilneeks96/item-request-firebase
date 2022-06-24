@@ -2,13 +2,11 @@ window.addEventListener('DOMContentLoaded', (event) => {
     console.log('DOM fully loaded and parsed');
 });
 
+var items = [];
 
-
-
-window.onload=function(){
-    document.getElementById('new-item-input').addEventListener('input', function() {
-        console.log(this.value);
-    });
+function pushArray() {
+    inputValue = document.getElementById('new-item-input').value;
+    items.push(inputValue);  
+    console.log(items);
+    return false;
   }
-
-// console.log(document.getElementById('new-item-input').value);

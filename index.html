@@ -13,7 +13,7 @@
     <title> Title </title>
 </head>
 <body>
-    <input type="submit" id="hidden-submit-btn"/>
+
     <div class="background-img">
         <img src="./assets/cascade.jpg" alt="">
     </div>
@@ -33,7 +33,8 @@
                 </div>
             </div>
             <div class="new-todo-input">
-                <form action="" id="new-item-form">
+                <form action="" id="new-item-form" onsubmit="return pushArray()">
+                        <input type="submit" id="hidden-submit-btn"/>
                     <input type="text" placeholder="Request Item" id="new-item-input">
                 </form>
             </div>
